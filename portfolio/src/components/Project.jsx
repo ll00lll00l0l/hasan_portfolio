@@ -68,7 +68,7 @@ const Project = () => {
                         </li>
                         <li className="flex items-center space-x-3">
                 <SVG  caseValue='case8' name="loading" />
-                            <span>Adding backend Next.js </span>
+                            <span>Adding backend node.js </span>
                         </li>
                     </ul>
                     <div className='flex gap-8'>
