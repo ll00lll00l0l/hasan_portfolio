@@ -113,9 +113,31 @@ const Allsvg = ({ caseValue }) => {
                     break;
                     case 'case12':
                   svgComponent = (
-                    <></>
+                    <svg id="sw-js-blob-svg" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" version="1.1">
+                    <defs> 
+                        <linearGradient id="sw-gradient" x1="0" x2="1" y1="1" y2="0">
+                            <stop id="stop1" stop-color="rgba(133.334, 115.398, 106.908, 1)" offset="0%"></stop>
+                            <stop id="stop2" stop-color="rgba(162.932, 155.991, 144.532, 1)" offset="100%"></stop>
+                        </linearGradient>
+                    </defs>
+                <path fill="url(#sw-gradient)" d="M23.4,-33.8C29.2,-28,31.9,-19.6,32.1,-12.1C32.2,-4.6,29.7,2.1,27.6,9.1C25.5,16.1,23.8,23.3,19.3,28.4C14.8,33.6,7.4,36.7,0.9,35.5C-5.6,34.3,-11.3,28.8,-19.2,24.7C-27.1,20.7,-37.2,18,-40.4,12.2C-43.6,6.3,-40,-2.7,-35.1,-9.5C-30.3,-16.2,-24.3,-20.7,-18.2,-26.4C-12.2,-32.2,-6.1,-39.2,1.4,-41.1C8.8,-42.9,17.6,-39.7,23.4,-33.8Z" width="100%" height="100%" transform="translate(50 50)" stroke-width="0" stroke="url(#sw-gradient)"></path>
+              </svg>
                     );
                     break;
+                    case 'case13':
+                      svgComponent = (
+                        <></>
+                        );
+                        break;
+                        case 'case14':
+                          svgComponent = (
+                            <></>
+                            );
+                            break;   case 'case15':
+                            svgComponent = (
+                              <></>
+                              );
+                              break;
         default:
         svgComponent = null;
     }
