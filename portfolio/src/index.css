@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-.body{
+body{
     background-color: black;
+    cursor: none;
+
 }

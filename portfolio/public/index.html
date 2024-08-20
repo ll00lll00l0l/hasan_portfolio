@@ -24,6 +24,14 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
+    <script>
+      window.addEventListener('error', function(e){
+        // prevent React's listener from firing
+        e.stopImmediatePropagation();
+        // prevent the browser's console error message 
+        e.preventDefault();
+      });
+</script>
     <title>React App</title>
   </head>
   <body>

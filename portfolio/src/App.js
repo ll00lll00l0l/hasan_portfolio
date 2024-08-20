@@ -5,17 +5,18 @@ import About from "./components/About.jsx";
 import Skill from "./components/Skill.jsx";
 import Project from "./components/Project.jsx";
 import Contact from "./components/Contact.jsx";
-
+import CustomCursor from "./components/CustomCursor.jsx";
 
 
 function App() {
   return (
     <>
+    <CustomCursor/>
    <Navbar/>
-  <About/>
+  <div id='home'><About/></div>
   <Skill/>
-  <Project/>
-  <Contact/>
+  <div id='project'><Project/></div>
+  <div id='contact'><Contact/></div>
    </>
     );
 }
