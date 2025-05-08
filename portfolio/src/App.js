@@ -1,4 +1,4 @@
-import React  from "react";
+import React from "react";
 import "./App.css";
 import Navbar from "./components/Navbar.jsx";
 import About from "./components/About.jsx";
@@ -11,17 +11,13 @@ import CustomCursor from "./components/CustomCursor.jsx";
 function App() {
   return (
     <>
-    <CustomCursor/>
-   <Navbar/>
-  <div id='home'><About/></div>
-  <Skill/>
-  <div id='project'><Project/></div>
-  <div id='contact'><Contact/></div>
-   </>
-    );
+      <CustomCursor />
+      <Navbar />
+      <div id='home'><About /></div>
+      <Skill />
+      <div id='project'><Project /></div>
+      <div id='contact'><Contact /></div>
+    </>
+  );
 }
-              
 export default App;
-
-    
-   

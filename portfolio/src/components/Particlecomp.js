@@ -8,4 +8,4 @@ const Particlecomp =() =>{
   )
 }
 
-export default Particlecomp     
+export default Particlecomp

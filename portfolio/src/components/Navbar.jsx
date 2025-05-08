@@ -10,7 +10,7 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="backdrop-blur-lg fixed w-full bg-opacity-50 pt-6 border-gray-200 py-2.5 dark:bg-gray-900">
+      <nav className="backdrop-blur-lg fixed w-full bg-opacity-50 pt-6 border-gray-200 py-2.5">
         <div className="flex flex-wrap items-center justify-between max-w-screen-xl px-4 mx-auto">
           <Link to="/" className="flex items-center">
             <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">Hasan.</span>
